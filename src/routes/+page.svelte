@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	function shuffle(array: Array<any>) {
+	function shuffle(array) {
 		let currentIndex = array.length,
 			randomIndex;
 		// While there remain elements to shuffle.
